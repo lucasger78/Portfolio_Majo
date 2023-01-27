@@ -14,6 +14,16 @@
     z-index: 99;
 }
 
+.go-to-about {
+    position: fixed;
+    /* display: none; */
+    right: 45px;
+    bottom: 45px;
+    /* position: center; */
+    z-index: 99;
+    
+}
+
 .my-6 {
     margin-top: 6rem;
     margin-bottom: 6rem;
@@ -105,10 +115,16 @@
     height: 48px;
 }
 
+/* Go to About */
+.btn-go-about {
+    width: 48px;
+    height: 48px;
+}
+
 /*** Navbar ***/
 .navbar.fixed-top {
     display: none;
-    transition: .5s;
+    transition: .2s;
 }
 
 .navbar .navbar-nav .nav-link {
